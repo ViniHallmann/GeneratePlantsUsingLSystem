@@ -1,0 +1,11 @@
+LENGTH:           int = 10
+ANGLES:           int = 25
+GENERATIONS:      int = 7
+LINE_WIDTH:       int  = 1
+INTERPOLATION_STEPS: int = 10
+DISPLAY_STEPS:    int = 7
+FRUIT_A_COLOR:    list  = (229, 206, 220)
+FRUIT_B_COLOR:    list  = (252, 161, 125)
+PLANT_COLOR:      tuple = (158, 169, 63)
+BACKGROUND_COLOR: tuple = (0,0,0)
+GROWTH_RATE:      int = 0.04
