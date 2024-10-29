@@ -7,7 +7,7 @@ Achei um video de um cara que mostra o processo para criar um algoritmo de L-Sys
 
 
 ### **Resultado das plantas geradas**
-![Resultado](result.gif)
+![Resultado](result/result.gif)
 
 Se voce quer uma explicação boa, só seguir o que é dito no vídeo e junto com algumas pesquisas da pra chegar em resultados bem legais. 
 
