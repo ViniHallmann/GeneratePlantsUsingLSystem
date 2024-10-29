@@ -35,16 +35,17 @@ RULES = {
 AXIOM = "X"
 RULES = {
     "X": [
-        {"rule": "F[+X][-X]FX",       "prob": 0.4},
-        {"rule": "F[+X][-X]A",        "prob": 0.1},  # Adiciona frutas A
-        {"rule": "F[+X][-X]B",        "prob": 0.1},  # Adiciona frutas B
-        {"rule": "F[+X]F[-X]",        "prob": 0.2},  # Ramificação simples
-        {"rule": "F[-X]F[+X]",        "prob": 0.1},  # Crescimento moderado
-        {"rule": "F[+X][-X]",         "prob": 0.1},  # Crescimento básico
+        {"rule": "(F[+X][-X]FX)",       "prob": 0.5},
+        {"rule": "(F[-X]FX)",        "prob": 0.05},  # Adiciona frutas A
+        {"rule": "(F[+X]FX)",        "prob": 0.05},  # Adiciona frutas B
+        {"rule": "(F[++X][-X]FX)",        "prob": 0.1},  # Ramificação simples
+        {"rule": "(F[+X][--X]FX)",        "prob": 0.1},  # Crescimento moderado
+        {"rule": "(F[+X][-X]FXA)",         "prob": 0.1},  # Crescimento básico
+        {"rule": "(F[+X][-X]FXB)",         "prob": 0.1},  # Cres
     ],
     "F": [
-        {"rule": "FF",                "prob": 0.4},  # Tronco principal cresce
-        {"rule": "F",                 "prob": 0.3},  # Sem multiplicação excessiva
-        {"rule": "F[+F][-F]",         "prob": 0.3},  # Pequenas ramificações
+        {"rule": "F(F)",                "prob": 0.2},  # Multiplicação moderada
+        {"rule": "F(FF)",               "prob": 0.4},  # Multiplicação contínua
+        {"rule": "F",                   "prob": 0.4},  # Sem multiplicação
     ]
 }

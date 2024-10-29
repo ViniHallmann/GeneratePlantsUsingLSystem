@@ -28,7 +28,7 @@ class Renderer:
 
         for command in commands:
             if command == "F":
-                length = LENGTH + random.uniform(-2, 2) 
+                length = LENGTH 
                 angle_variation = random.uniform(-5, 5)
                 new_position = (
                     position[0] + length * math.cos(math.radians(angle + angle_variation)),
