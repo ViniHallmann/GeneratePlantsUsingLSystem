@@ -1,6 +1,6 @@
 # **Plants with L-System**
 
-Achei um video de um cara que mostra o processo para criar um algoritmo de L-System usando p5.js. Tentei fazer o mesmo em Python usando Pygame
+Comecei a pesquisar sobre L-System e achei interesante. Achei um video de um cara que mostra o processo para criar um algoritmo de L-System usando p5.js.  Tentei fazer o mesmo em Python usando Pygame.
 
 ### **Referências:** 
 [Infinite Plant Generation with Random L Systems Rules](https://www.youtube.com/watch?v=1hcCpLQwI-c). **Canal do YouTube:** Barney Codes
@@ -13,5 +13,5 @@ Achei um video de um cara que mostra o processo para criar um algoritmo de L-Sys
 ![Resultado](result/result.gif)
 
 ### **A fazer:**
-- Preciso ajustar o código para desenhar de forma interpolada a planta, criando uma animação de crescimento~
+- Preciso ajustar o código para desenhar de forma interpolada a planta, criando uma animação de crescimento
 - Melhorar organização do código
